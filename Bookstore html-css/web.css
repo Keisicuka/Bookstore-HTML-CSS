@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color: #38598b;
+    height: 230px;
+}
+
+.upper-navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    align-items: center;
+    height: 180px;
+}
+
+.navbar-left{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.image-book{
+    height: 60px;
+    width: 60px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 1ic;
+    border: solid rgb(178, 175, 238);
+    cursor: pointer;
+}
+
+.title{
+    margin-top: 28px;
+    font-size: 30px;
+    margin-left: 10px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.navbar-right ul li{
+    padding-right: 35px;
+    text-align: right;
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.navbar-right ul li input{
+    width: 400px;
+    margin-right: 250px;
+    height: 30px;
+    border-radius: 6px;
+    border: solid #113f67;
+    padding-left: 10px;
+    box-shadow: 2px 2px 2px gray;
+}
+
+.navbar-right ul li button{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    padding: 0px;
+    height: 60px;
+    width: 95px;
+    border-radius: 10px;
+    padding-bottom: 4px;
+    padding-top: 2px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px gray ;
+}
+
+.navbar-right ul li button:hover{
+    box-shadow: 2px 2px 2px #113f67;
+}
+
+.navbar-right ul li button img{
+    height: 25px;
+    width: 25px;
+    border-radius: 1ic;
+    border: solid #38598b ;
+    cursor: pointer;   
+}
+
+.lineh{
+    color: white;
+}
+
+.navbar-center ul li{
+    padding-left: 235px;
+    padding-top: 15px;
+    display: inline-block;
+}
+
+.navbar-center ul li a{
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    text-decoration:none;
+    padding: 11px;
+    border-radius: 3px;
+}
+
+.navbar-center ul li a:hover{
+    box-shadow: 2px 2px 2px gray;
+}
+
+@media only screen and (max-width:1080px){
+    .navbar{
+        width: 1800px;
+    }
+    .navbar-right{
+        display: none;
+    }  
+    .navbar-center{
+        display: none;
+    }
+    .center1{
+        width: 1800px;
+    }
+    .last-section1{
+        width: 1800px;
+    }
+    .navbar-center{
+        display: none;
+    }
+    .navbar-right button{
+        display: none;
+    }
+}
+
+/* The second section */
+
+.center1{
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 20px;
+    background-image: url(Images/blue1.jpg);
+    background-size: cover; 
+    background-position: center; 
+    height: 20vh;
+}
+
+.theTitle{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+    font-weight: 1000;
+    color: #1d3d58;
+}
+
+.artikujt {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #1d3d58;
+    margin-top: 100px;
+}
+
+.row{
+    display: flex;
+    margin-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color:#0a2135;
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    gap: 100px;
+}
+.book1, .book2, .book3, .book4 {
+    box-shadow: 3px 3px 3px 3px gray;
+    width: 250px;
+}
+.row p, button{
+    margin: 5px;
+    cursor: pointer;
+}
+.row button{
+    padding: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.row button:hover{
+    background-color:rgba(128, 128, 128, 0.327);
+}
+
+/* The last section */
+
+.last-section1{
+    background-color: #38598b;
+    color: white;
+    padding: 100px;
+    display: flex;
+    gap: 100px;
+}
+
+.activities h4{
+    margin-bottom: 20px;
+}
+.activities ul li{
+    margin: 5px;
+    cursor: pointer;
+}
+
+.activities input{
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+} 
